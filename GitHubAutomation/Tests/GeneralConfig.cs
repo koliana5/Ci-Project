@@ -18,12 +18,12 @@ namespace GitHubAutomation.Tests
         [SetUp]
         public void SetDriver()
         {
-          /*  Console.WriteLine("set up driver");
+           Console.WriteLine("set up driver");
             Driver = DriverSingleton.GetDriver();
             Driver.Manage().Timeouts().PageLoad = TimeSpan.FromMinutes(5);
             Driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromMinutes(5);
             Driver.Navigate().GoToUrl("https://titanprokat.ru/");
-            Logger.InitLogger();*/
+            Logger.InitLogger();
 
         }
 
@@ -48,8 +48,8 @@ namespace GitHubAutomation.Tests
         [TearDown]
         public void QuitDriver()
         {
-           /* Log.Info("Test_Successfully");
-            DriverSingleton.CloseDriver();*/
+            Log.Info("Test_Successfully");
+            DriverSingleton.CloseDriver();
         }
     }
 }
